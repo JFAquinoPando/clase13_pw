@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.1.js"></script>
+    <script src="./js/script.js" defer></script>
+    <style>
+        .img-responsive {
+            width: 90%;
+        }
+        div{
+            margin-bottom: 20px;
+        }
+
+        .ojo{
+            width: 32px;
+        }
+        .logo-img {
+        /* to black */
+        filter: invert(1);
+        /* or to blue */
+        filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+        background-color: #c2c2c2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="email">email
+            </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="contrasña">contraseña</label>
+            <input type="password" name="contrasña" id="contrasña">
+            <img src="https://svgsilh.com/svg/1915455.svg" alt="" class="ojo">
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
